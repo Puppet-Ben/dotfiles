@@ -76,6 +76,12 @@ export PATH="/opt/crossfader/bin:/opt/crossfader/versions/ruby/1.9.3-p448/gemset
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# git
+alias lg="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gs="git status"
+alias gr="git remote -v"
+alias gd="git diff"
+alias gb="git branch -a"
+alias ga="git add"
+alias gp="git push"
+alias gc="git commit"
